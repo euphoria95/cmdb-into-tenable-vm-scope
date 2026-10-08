@@ -1,0 +1,30 @@
+# --- Scan scope & output (client/asset data — NEVER commit) ---
+# Inputs are CMDB/asset exports; outputs name real hosts and IPs.
+targets.txt
+*targets*.txt
+*scope*.txt
+*domains*.txt
+data/
+out/
+output/
+*.csv
+*.json
+!example_targets.txt        # the sanitized sample is allowed
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
