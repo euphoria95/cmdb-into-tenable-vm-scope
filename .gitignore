@@ -9,7 +9,8 @@ out/
 output/
 *.csv
 *.json
-!example_targets.txt        # the sanitized sample is allowed
+# the sanitized sample is allowed
+!example_targets.txt
 
 # --- Python ---
 __pycache__/

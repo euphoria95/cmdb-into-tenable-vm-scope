@@ -1,0 +1,5 @@
+# One FQDN per line. Blank lines and # comments are ignored.
+# Replace with your CMDB / asset export.
+example.com
+www.example.org
+shop.example.net
